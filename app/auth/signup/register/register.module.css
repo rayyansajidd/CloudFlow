@@ -1,0 +1,142 @@
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.leftPanel {
+    background: white; /* Same as the signup page */
+    height: 100vh;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    position: relative;
+    width: 90%;
+    height: auto;
+    max-height: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.rightPanel {
+    background: white; /* Similar to signup page */
+    padding: 50px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    font-size: smaller; /* Adjusted to maintain consistency */
+    
+}
+
+.googleButton {
+    background-color: #4285F4; /* Google Blue */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.googleButton {
+    display: flex; /* Use Flexbox for alignment */
+    align-items: center; /* Center the items vertically */
+    background-color: white; /* Google Blue */
+    color: rgb(119, 118, 118);
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    width: 85%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.googleicon {
+    width: 20px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between image and text */
+}
+
+
+.orSignIn {
+    text-align: center;
+    justify-content: center;
+    margin: 17px 0;
+    margin-left: 100px;
+}
+
+.inputLabel {
+    font-size: 12px; /* Adjust size as needed */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #333; /* Adjust color as needed */
+}
+
+.inputField {
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    width: 85%; /* Match with previous styles */
+}
+
+.rememberMe {
+    margin-bottom: 20px; /* Space for the label */
+}
+
+.loginButton {
+    padding: 10px;
+    background-color: black; /* Use black for login button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 85%;
+}
+
+.forgotPassword {
+    margin: 10px 0; /* Space between button and link */
+}
+
+.signupPrompt {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.greyText {
+    color: grey;
+}
+
+.blackText {
+    color: black;
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.smallImage {
+    width: 65px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it behaves as block element */
+    margin-bottom: 16px; /* Space between image and heading */
+    margin-left: 0; /* Align to left */
+}
