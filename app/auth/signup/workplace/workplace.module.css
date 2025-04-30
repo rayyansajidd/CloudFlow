@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .canvas {
+    flex: 1;
+    background-color: #0c0c0c;
+    padding: 10px;
+    position: relative;
+  }
+  
