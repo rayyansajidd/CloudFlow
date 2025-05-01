@@ -1,0 +1,45 @@
+.leftPanel {
+    width: 250px;
+    background-color: #f8f9fb;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .searchInput {
+    padding: 8px;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .section h4 {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+  }
+  
+  .section ul li {
+    padding: 4px 0;
+    font-size: 0.9rem;
+  }
+  
+  .totalCost {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  

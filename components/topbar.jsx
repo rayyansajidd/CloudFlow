@@ -44,9 +44,12 @@ export default function TopBar() {
       </div>
 
       <button className={styles.addClusterButton}>
-        <img src="/Error.png" alt="Add Cluster" style={{ width: '18px', marginRight: '8px' }} />
-        add a cluster (dev)
+        <span className={styles.buttonContent}>
+          <img src="/Error.png" alt="Add Cluster" />
+          add a cluster (dev)
+        </span>
       </button>
+
     </div>
   );
 }

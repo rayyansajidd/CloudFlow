@@ -4,6 +4,7 @@ import React, { useRef, useState } from 'react';
 import Sidebar from '@/components/Sidebar';
 import TopBar from '@/components/TopBar';
 import Canvas from '@/components/Canvas';
+import LeftPanel from '@/components/LeftPanel';
 import { DndContext, DragOverlay } from '@dnd-kit/core';
 import styles from './workplace.module.css';
 
@@ -54,6 +55,9 @@ export default function Workplace() {
     >
       <div className={styles.wrapper}>
         <Sidebar />
+        <LeftPanel
+        />
+
         <div className={styles.rightSide}>
           <TopBar />
           <Canvas
